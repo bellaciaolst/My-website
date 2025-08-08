@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">我的博客</div>
+        <nav>
+            <a href="#">首页</a>
+            <a href="#podcast">播客</a>
+            <a href="#about">关于我</a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main id="post-container">
+        <!-- 博客文章会由 JavaScript 自动生成 -->
+    </main>
+
+    <section id="podcast">
+        <h2>🎧 我的播客</h2>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0"
+            height="175" style="width:100%;max-width:660px;overflow:hidden;background:transparent;"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+            src="https://embed.music.apple.com/cn/album/album-id">
+        </iframe>
+    </section>
+
+    <footer id="about">
+        <p>© 2025 我的名字 | 联系我: email@example.com</p>
+    </footer>
+
+    <audio id="bg-music" controls loop>
+        <source src="assets/background.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

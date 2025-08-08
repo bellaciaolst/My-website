@@ -1,0 +1,15 @@
+{
+    "posts": [
+        {
+            "title": "第一篇博客",
+            "date": "2025-08-08",
+            "content": "这是我的第一篇博客文章，测试一下 JSON 驱动的博客系统！",
+            "appleMusicEmbed": "<iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\"\n                height=\"175\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;\"\n                sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation\"\n                src=\"https://embed.music.apple.com/cn/album/album-id\">\n            </iframe>"
+        },
+        {
+            "title": "第二篇日记",
+            "date": "2025-08-07",
+            "content": "今天的心情很好，蓝天白云，还有喜欢的背景音乐陪伴。"
+        }
+    ]
+}
